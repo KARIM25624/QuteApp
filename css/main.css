@@ -1,24 +1,35 @@
+body{
+    background-image: url(../img/download.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 div h2{
     font-size: 80px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
 }
 div p{
     font-size: 30px;
+    color:wheat;
 }
 div button{
-    width: 200px;
-        height: 80px;
+    width: 150px;
+        height: 60px;
         background-color: blue;
         color: white;
         border-radius: 20px;
         border: none;
 }
 div button:hover{
-    background-color: rgb(29, 139, 29);
+    background-color:rgb(43, 171, 43);
 }
 #quteTitle{
     font-family:Arial, Helvetica, sans-serif;
+    color:wheat;
 }
 #quteAuther{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
 }
